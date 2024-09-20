@@ -1,0 +1,34 @@
+{
+  "name": "photostudio",
+  "version": "1.0.0",
+  "description": "photo studio",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduar-code/PhotoStudio.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "GULP"
+  ],
+  "author": "Alexis Eduardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduar-code/PhotoStudio/issues"
+  },
+  "homepage": "https://github.com/eduar-code/PhotoStudio#readme",
+  "devDependencies": {
+    "glob": "^11.0.0",
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "sass": "^1.79.2",
+    "sharp": "^0.33.5"
+  }
+}
