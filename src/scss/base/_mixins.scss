@@ -1,6 +1,6 @@
 @use 'variables' as v;
 
-@mixin telefono {
+@mixin cellphone {
     @media (min-width: v.$telefono) {
         @content;
     }
@@ -24,7 +24,7 @@
     }
 }
 
-@mixin contenedor {
+@mixin container {
     width: 95%;
     max-width: 120rem;
     margin: 0 auto;
@@ -36,7 +36,7 @@
     gap: $gap;
 }
 
-@mixin reset-lista {
+@mixin reset-list {
     margin: 0;
     padding: 0;
     list-style: none;
